@@ -12,9 +12,7 @@ public interface Calculator {
 	 * @return all value equals all numbers in input added to each other
 	 */
 
-	public static int count(String input){
+	static int count(String input) {
 		return 0;
 	}
-
-
 }

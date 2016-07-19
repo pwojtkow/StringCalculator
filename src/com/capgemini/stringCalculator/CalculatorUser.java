@@ -1,5 +1,8 @@
 package com.capgemini.stringCalculator;
 
+/**
+ * @author PWOJTKOW
+ */
 public class CalculatorUser implements Calculator {
 
 	public static int count(String input) {
@@ -11,7 +14,6 @@ public class CalculatorUser implements Calculator {
 			result += Integer.parseInt(values[i]);
 		}
 		return result;
-
 	}
 
 }
