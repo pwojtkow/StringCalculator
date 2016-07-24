@@ -56,7 +56,6 @@ public class CalculatorTest {
 	}
 
 	@Test
-	// ASK about comment below
 	// Not checking six, because factorial of 3 (3!) giving the same result as
 	// 1+2+3
 	public void shouldReturnSeven() {
